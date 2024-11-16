@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Giao Diện Chủ</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+        /* Reset một số kiểu mặc định của trình duyệt */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Đặt nền và font chữ cho toàn bộ trang */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Phần header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Phần nội dung chính */
+.main-content {
+    padding: 50px 0;
+    background-color: #fff;
+    text-align: center;
+}
+
+.main-content h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.main-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Phần footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+    </style>
+    <header>
+        <div class="container">
+            <h1>Chào Mừng Đến Với Trang Chủ</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Trang Chủ</a></li>
+                    <li><a href="#">Giới Thiệu</a></li>
+                    <li><a href="#">Dịch Vụ</a></li>
+                    <li><a href="#">Liên Hệ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="main-content">
+        <div class="container">
+            <h2>Chúng tôi cung cấp dịch vụ tuyệt vời!</h2>
+            <p>Chào mừng bạn đến với trang web của chúng tôi, nơi bạn có thể tìm thấy những thông tin hữu ích về dịch vụ của chúng tôi.</p>
+            <button onclick="showMoreInfo()">Tìm Hiểu Thêm</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Công ty XYZ. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
